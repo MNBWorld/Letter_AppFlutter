@@ -1,4 +1,5 @@
 // ignore_for_file: use_key_in_widget_constructors, prefer_const_constructors, prefer_const_literals_to_create_immutables, unused_import, lines_longer_than_80_chars, always_specify_types, public_member_api_docs
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -7,12 +8,7 @@ import 'package:letters/widgets/welcome_letters.dart';
 import 'package:lint/lint.dart';
 import 'package:simple_shadow/simple_shadow.dart';
 
-class WelcomePage extends StatefulWidget {
-  @override
-  _WelcomePageState createState() => _WelcomePageState();
-}
-
-class _WelcomePageState extends State<WelcomePage> {
+class WelcomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Material(
@@ -54,7 +50,7 @@ class _WelcomePageState extends State<WelcomePage> {
             SizedBox(
               height: 8,
             ),
-            WelcomeLettersDart(),
+            WelcomeLetters()
           ],
         ),
       ),

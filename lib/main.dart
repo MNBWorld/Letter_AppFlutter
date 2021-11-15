@@ -6,15 +6,14 @@ import 'package:letters/pages/welcome.dart';
 import 'package:lint/lint.dart';
 
 void main() {
-  runApp(Letters());
+  runApp(MyApp());
 }
 
-class Letters extends StatelessWidget {
+class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(
-        backgroundColor: Colors.white,
         fontFamily: GoogleFonts.laila().fontFamily,
       ),
       debugShowCheckedModeBanner: false,
