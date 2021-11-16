@@ -3,6 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:letters/pages/welcome.dart';
+import 'package:letters/utils/routes.dart';
 import 'package:lint/lint.dart';
 
 void main() {
@@ -17,8 +18,9 @@ class MyApp extends StatelessWidget {
         fontFamily: GoogleFonts.laila().fontFamily,
       ),
       debugShowCheckedModeBanner: false,
+      initialRoute: MyRoutes.welcomeRoute,
       routes: {
-        "/": (BuildContext context) => WelcomePage(),
+        MyRoutes.welcomeRoute: (context) => WelcomePage(),
       },
     );
   }

@@ -4,7 +4,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:hexcolor/hexcolor.dart';
-import 'package:letters/widgets/welcome_letters.dart';
+import 'package:letters/widgets/wcletter1.dart';
 import 'package:lint/lint.dart';
 import 'package:simple_shadow/simple_shadow.dart';
 
